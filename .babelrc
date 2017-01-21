@@ -1,0 +1,21 @@
+{
+    "presets": [["es2015", { "loose": true }], "stage-1", "react"],
+    "plugins": [
+        ["transform-es2015-modules-commonjs", {
+            "loose": true
+        }],
+        "add-module-exports",
+        "transform-decorators-legacy",
+        "transform-react-inline-elements"
+    ],
+    "ignore": [
+        "/(node_modules|bower_components)/"
+    ],
+    "env": {
+        "development": {
+            "plugins": [
+
+            ]
+        }
+    }
+}
