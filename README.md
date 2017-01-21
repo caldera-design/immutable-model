@@ -14,8 +14,8 @@ Usage
 The `Model` and `Collection` classes are data structures that wrap javascript objects and arrays, respectively.
 
 #### Model
-| Method | Description
-| --------------------------------
+| Method                           | Description
+| -------------------------------- | -------------------------------------
 | `toJS()` | Returns a plain javascript object representing the data
 | `get(key: string)` -> any | Returns the value for a key
 | `set(key: string, value: any) -> Model` | Returns a new Model with the key/value pair
