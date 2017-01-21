@@ -17,17 +17,17 @@ The `Model` and `Collection` classes are data structures that wrap javascript ob
 | Method                           | Description
 | -------------------------------- | -------------------------------------
 | `toJS()` | Returns a plain javascript object representing the data
-| `get(key: string)` -> any | Returns the value for a key
+| `get(key: string) -> any` | Returns the value for a key
 | `set(key: string, value: any) -> Model` | Returns a new Model with the key/value pair
 | `remove(key: string) -> Model` | Returns a new Model with the key/value removed
 | `setIn(keyPath: [string], value: any) -> Model` | Returns a new Model with the keyPath set
 | `getIn(keyPath: [string]) -> any` | Returns the value at the keyPath
 
 #### Collection
-| Method | Description
-| --------------------------------
+| Method                           | Description
+| -------------------------------- | ----------------------------------
 | `toJS()` | Returns a plain javascript object representing the data
-| `get(index: number)` -> any | Returns the value at an index
+| `get(index: number) -> any` | Returns the value at an index
 | `set(index: number, value: any) -> Model` | Returns a new Collection with the index/value pair
 | `push(value: any) -> Model` | Returns a new Collection with the value pushed
 | `toArray() -> [any]` | Returns a new Collection with the value pushed
