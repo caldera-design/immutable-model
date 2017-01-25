@@ -5,6 +5,7 @@ export default class Model {
     constructor(data) {
         if (data instanceof Model) {
             this.data = data.getData();
+            return;
         }
         if (Map.isMap(data)) {
             this.data = data;
