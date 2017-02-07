@@ -1,6 +1,6 @@
 {
   "name": "caldera-immutable-model",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Immutable Model and Collection classes.",
   "main": "lib/index.js",
   "scripts": {
