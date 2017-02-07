@@ -6,7 +6,7 @@ Installation
 ============
 Use [npm](https://www.npmjs.com/) to install:
 ```bash
-npm install caldera-model
+npm install immutable-model
 ```
 
 Usage

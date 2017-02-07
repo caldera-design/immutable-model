@@ -1,5 +1,5 @@
 {
-  "name": "caldera-model",
+  "name": "immutable-model",
   "version": "0.0.3",
   "description": "Immutable Model and Collection classes.",
   "main": "lib/index.js",
@@ -9,7 +9,10 @@
   },
   "author": "Jon Brennecke",
   "license": "MIT",
-  "repository": "git@gitlab.com:caldera-design/caldera-model.git",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/caldera-design/immutable-model.git"
+  },
   "dependencies": {
     "immutable": "3.8.1"
   },
