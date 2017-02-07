@@ -6,7 +6,7 @@ const webpack = require('webpack');
 
 const isProduction = process.env.NODE_ENV === 'production';
 const isDev = !isProduction;
-const libraryName = 'immutable-model';
+const libraryName = 'caldera-immutable-model';
 
 module.exports = {
     target: 'web',
